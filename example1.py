@@ -5,7 +5,7 @@ def func1(arg1, arg2):
     :type arg1: [type]
     :param arg2: Another value
     :type arg2: [type]
-    :return: Argument 1
+    :return: arg1
     :rtype: [type]
     """
     arg1 = arg2
@@ -13,24 +13,9 @@ def func1(arg1, arg2):
 
 
 def func2():
-    """Function with no return type
+    """Function with no arguments return None
     
-    :return: [description]
-    :rtype: [type]
+    :return: None
+    :rtype: None
     """
     return None
-
-
-def func3(arg1):
-    """[summary]
-    
-    :param arg1: [description]
-    :type arg1: [type]
-    :return: [description]
-    :rtype: [type]
-    """
-    try:
-        x = 10 / arg1
-    except ZeroDivisionError:
-        raise("Division by zero")
-    return x
